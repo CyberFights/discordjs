@@ -14,8 +14,8 @@ module.exports = (client) => {
 
 
 
-fs.readdirSync("./Routes/").filter(x=>x.endsWith('.js')).forEach(route => {
-  let path = "./Routes/"+route,
+fs.readdirSync("./routes/").filter(x=>x.endsWith('.js')).forEach(route => {
+  let path = "./routes/"+route,
     data = require(path);
   app[data.method](data.route,(req,res)=>data.run(req,res,client))
 let ce = {
