@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@akarui/aoi.db": "^2.3.3",
+    "@aoijs/aoi.db": "^0.0.0",
     "@discordjs/voice": "^0.14.0",
     "@types/node": "^18.0.6",
     "aoi.db": "^1.0.0",
